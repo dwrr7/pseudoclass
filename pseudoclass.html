@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudeoclass</title>
+    <style>
+        body{
+            text-align: center;
+            margin: 100px;
+        }
+
+        div.box {
+            display:inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: gray;
+            line-height: 200px;
+            margin: auto;
+        }
+
+        div.box:hover {
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+        }
+
+        div.box.circle {
+            width: 200px;
+            height: 200px;
+            background-color: royalblue;
+            margin: auto;
+        }
+
+        div.box.circle:hover {
+            border-radius: 200px;
+            background-color: red;
+        }
+
+        span{
+            display:inline-block;
+            background-color: yellowgreen;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            margin: auto;
+        }
+
+        span:hover{
+            background-color: aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">1</div>
+    <div class="box circle">2</div>
+    <span class="box">3</span>  
+</body>
+</html>
